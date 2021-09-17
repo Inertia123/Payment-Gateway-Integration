@@ -1,0 +1,143 @@
+$Primary: #5fa823;
+$Secondary: rgb(184, 184, 184);
+$Font: 'Open Sans', sans-serif;
+$Font-S: 'Poppins', sans-serif;
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: $Font;
+}
+body{
+    min-height: 100vh;
+    padding: 0 13rem;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0;
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            img{
+                height: 2.5rem;
+            }
+            h3{
+                color: $Primary;
+            }
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            .menu{
+                img{
+                    height: 1.2rem;
+                    display: block;
+                }
+                cursor: pointer;
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+                cursor: pointer;
+                padding: 0.3rem 1rem;
+                border-radius: 2rem;
+                .sea{
+                    color: $Primary;
+                }
+                input{
+                    border: none;
+                    outline: none;
+                    width: 3rem;
+                    font-family: $Font;
+                    &::placeholder{
+                        color: $Secondary;
+                    }
+                }
+            }
+            .watch-now{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.4rem;
+                cursor: pointer;
+                .wat{
+                    font-size: 2.3rem;
+                    color: $Primary;
+                }
+                h3{
+                    font-size: 0.7rem;
+                    color: rgb(100, 100, 100);
+                }
+            }
+        }
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+        .earth{
+            img{
+                height: 25rem;
+                transform: rotate(-15deg);
+                margin-top: -2rem;
+            }
+        }
+        .text{
+            h1{
+                font-size: 4.5rem;
+                font-family: $Font-S;
+                font-weight: 700;
+                line-height: 5rem;
+                letter-spacing: -3.5px;
+                span{
+                    color: $Primary;
+                }
+                margin-bottom: 4rem;
+            }
+            a{
+                text-decoration: none;
+                color: #ffffff;
+                background-color: $Primary;
+                padding: 0.8rem 2rem;
+                border-radius: 5rem;
+                font-family: $Font-S;
+                vertical-align: center;
+                font-size: 0.8rem;
+                box-shadow: 0px 10px 25px -12px rgba(0, 0, 0, 0.692);
+                &:hover{
+                    background: #7dd337;
+                }
+                
+                i{
+                    color: white;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+    footer{
+        margin-top: 2rem;
+        .footer-socials{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            i{
+                font-size: 1.4rem;
+                color: rgb(66, 66, 66);
+                cursor: pointer;
+            }
+        }
+    }
+}

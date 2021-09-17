@@ -1,0 +1,215 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0 13rem;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+}
+
+body header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+body header .logo img {
+  height: 2.5rem;
+}
+
+body header .logo h3 {
+  color: #5fa823;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+}
+
+body header nav .menu {
+  cursor: pointer;
+}
+
+body header nav .menu img {
+  height: 1.2rem;
+  display: block;
+}
+
+body header nav .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}
+
+body header nav .search .sea {
+  color: #5fa823;
+}
+
+body header nav .search input {
+  border: none;
+  outline: none;
+  width: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+body header nav .search input::-webkit-input-placeholder {
+  color: #b8b8b8;
+}
+
+body header nav .search input:-ms-input-placeholder {
+  color: #b8b8b8;
+}
+
+body header nav .search input::-ms-input-placeholder {
+  color: #b8b8b8;
+}
+
+body header nav .search input::placeholder {
+  color: #b8b8b8;
+}
+
+body header nav .watch-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+body header nav .watch-now .wat {
+  font-size: 2.3rem;
+  color: #5fa823;
+}
+
+body header nav .watch-now h3 {
+  font-size: 0.7rem;
+  color: #646464;
+}
+
+body .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+body .hero .earth img {
+  height: 25rem;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  margin-top: -2rem;
+}
+
+body .hero .text h1 {
+  font-size: 4.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: -3.5px;
+  margin-bottom: 4rem;
+}
+
+body .hero .text h1 span {
+  color: #5fa823;
+}
+
+body .hero .text a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5fa823;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-family: "Poppins", sans-serif;
+  vertical-align: center;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 0px 10px 25px -12px rgba(0, 0, 0, 0.692);
+          box-shadow: 0px 10px 25px -12px rgba(0, 0, 0, 0.692);
+}
+
+body .hero .text a:hover {
+  background: #7dd337;
+}
+
+body .hero .text a i {
+  color: white;
+  margin-right: 1rem;
+}
+
+body footer {
+  margin-top: 2rem;
+}
+
+body footer .footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+body footer .footer-socials i {
+  font-size: 1.4rem;
+  color: #424242;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
